@@ -60,6 +60,7 @@
     <Folder Include="Scripts" />
     <Folder Include="Functions" />
     <Folder Include="Procedures" />
+    <Folder Include="Views" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Film.sql" />
@@ -76,6 +77,7 @@
     <Build Include="Functions\MVSF_GetPreHash.sql" />
     <Build Include="Procedures\MVSP_CheckCustomer.sql" />
     <Build Include="Procedures\MVSP_RegisterCustomer.sql" />
+    <Build Include="Views\V_Film.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MovieRental.Database.publish.xml" />

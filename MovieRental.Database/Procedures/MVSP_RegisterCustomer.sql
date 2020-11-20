@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[MVSP_RegisterUser]
+﻿CREATE PROCEDURE [dbo].[MVSP_RegisterCustomer]
 	@LastName NVARCHAR(75),
 	@FirstName NVARCHAR(75),
 	@Email NVARCHAR(320),
