@@ -8,3 +8,7 @@
 	CONSTRAINT [FK_Rental_Customer] FOREIGN KEY ([CustomerId])
 		REFERENCES [Customer]([CustomerId])
 )
+
+GO
+
+CREATE INDEX [IX_Rental_CustomerId] ON [dbo].[Rental] ([CustomerId])

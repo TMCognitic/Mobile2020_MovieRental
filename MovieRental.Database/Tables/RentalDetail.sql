@@ -9,3 +9,11 @@
 	CONSTRAINT [FK_RentalDetail_Film] FOREIGN KEY ([FilmId])
 		REFERENCES [Film]([FilmId])
 )
+
+GO
+
+CREATE INDEX [IX_RentalDetail_FilmId] ON [dbo].[RentalDetail] ([FilmId])
+
+GO
+
+CREATE INDEX [IX_RentalDetail_RentalId] ON [dbo].[RentalDetail] ([RentalId])

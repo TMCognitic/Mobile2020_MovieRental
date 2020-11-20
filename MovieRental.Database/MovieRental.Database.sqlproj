@@ -58,6 +58,8 @@
     <Folder Include="Properties" />
     <Folder Include="Tables" />
     <Folder Include="Scripts" />
+    <Folder Include="Functions" />
+    <Folder Include="Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Film.sql" />
@@ -67,6 +69,13 @@
     <Build Include="Tables\FilmActor.sql" />
     <Build Include="Tables\FilmCategory.sql" />
     <Build Include="Tables\Rating.sql" />
+    <Build Include="Tables\Customer.sql" />
+    <Build Include="Tables\Rental.sql" />
+    <Build Include="Tables\RentalDetail.sql" />
+    <Build Include="Functions\MVSF_GetPostHash.sql" />
+    <Build Include="Functions\MVSF_GetPreHash.sql" />
+    <Build Include="Procedures\MVSP_CheckCustomer.sql" />
+    <Build Include="Procedures\MVSP_RegisterCustomer.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MovieRental.Database.publish.xml" />
