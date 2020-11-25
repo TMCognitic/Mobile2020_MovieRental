@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MovieRental.Models.Common.Interfaces\MovieRental.Models.Common.Interfaces.csproj" />
+    <ProjectReference Include="..\MovieRental.Models.Global.Entities\MovieRental.Models.Global.Entities.csproj" />
+    <ProjectReference Include="..\Tools.Connection\Tools.Connection.csproj" />
+  </ItemGroup>
+
+</Project>

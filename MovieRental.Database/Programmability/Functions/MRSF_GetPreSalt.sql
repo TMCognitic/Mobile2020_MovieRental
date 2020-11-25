@@ -1,4 +1,4 @@
-﻿CREATE FUNCTION [dbo].[MVSF_GetPreHash]
+﻿CREATE FUNCTION [dbo].[MRSF_GetPreSalt]
 (
 )
 RETURNS NCHAR(2048)

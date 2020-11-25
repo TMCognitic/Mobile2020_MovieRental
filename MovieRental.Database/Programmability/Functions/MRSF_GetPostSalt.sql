@@ -1,4 +1,4 @@
-﻿CREATE FUNCTION [dbo].[MVSF_GetPostHash]
+﻿CREATE FUNCTION [dbo].[MRSF_GetPostSalt]
 (
 )
 RETURNS NCHAR(2048)

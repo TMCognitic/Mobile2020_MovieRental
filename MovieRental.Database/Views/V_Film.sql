@@ -4,7 +4,7 @@ AS SELECT [FilmId]
       ,[Description]
       ,[ReleaseYear]
       ,[F].[LanguageId]
-	  ,[L].[Name]
+	  ,[L].[Name] AS LanguageName
       ,[RentalDuration]
       ,[RentalPrice]
       ,[Length]
