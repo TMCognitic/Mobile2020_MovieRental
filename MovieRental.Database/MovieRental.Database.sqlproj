@@ -58,9 +58,11 @@
     <Folder Include="Properties" />
     <Folder Include="Tables" />
     <Folder Include="Scripts" />
-    <Folder Include="Functions" />
-    <Folder Include="Procedures" />
     <Folder Include="Views" />
+    <Folder Include="Programmability" />
+    <Folder Include="Programmability\Functions" />
+    <Folder Include="Programmability\Procedures" />
+    <Folder Include="Programmability\Type" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Film.sql" />
@@ -73,11 +75,26 @@
     <Build Include="Tables\Customer.sql" />
     <Build Include="Tables\Rental.sql" />
     <Build Include="Tables\RentalDetail.sql" />
-    <Build Include="Functions\MVSF_GetPostHash.sql" />
-    <Build Include="Functions\MVSF_GetPreHash.sql" />
-    <Build Include="Procedures\MVSP_CheckCustomer.sql" />
-    <Build Include="Procedures\MVSP_RegisterCustomer.sql" />
     <Build Include="Views\V_Film.sql" />
+    <Build Include="Programmability\Functions\MRSF_GetPostSalt.sql" />
+    <Build Include="Programmability\Functions\MRSF_GetPreSalt.sql" />
+    <Build Include="Programmability\Procedures\MRSP_CheckCustomer.sql" />
+    <Build Include="Programmability\Procedures\MRSP_CreateRental.sql" />
+    <Build Include="Programmability\Procedures\MRSP_GetActorInitials.sql" />
+    <Build Include="Programmability\Procedures\MRSP_GetActors.sql" />
+    <Build Include="Programmability\Procedures\MRSP_GetActorsByFilm.sql" />
+    <Build Include="Programmability\Procedures\MRSP_GetActorsByInitial.sql" />
+    <Build Include="Programmability\Procedures\MRSP_GetCategories.sql" />
+    <Build Include="Programmability\Procedures\MRSP_GetFilmById.sql" />
+    <Build Include="Programmability\Procedures\MRSP_GetFilmByTitle.sql" />
+    <Build Include="Programmability\Procedures\MRSP_GetFilms.sql" />
+    <Build Include="Programmability\Procedures\MRSP_GetFilmsByActor.sql" />
+    <Build Include="Programmability\Procedures\MRSP_GetFilmsByCategory.sql" />
+    <Build Include="Programmability\Procedures\MRSP_GetFilmsByKeyword.sql" />
+    <Build Include="Programmability\Procedures\MRSP_GetFilmsByLanguage.sql" />
+    <Build Include="Programmability\Procedures\MRSP_GetLanguages.sql" />
+    <Build Include="Programmability\Procedures\MRSP_RegisterCustomer.sql" />
+    <Build Include="Programmability\Type\FilmIds.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MovieRental.Database.publish.xml" />
